@@ -59,8 +59,8 @@ const App: React.FC = () => {
           >
             <path d="M12 21.35l-1.45-1.32C5.4 16.29 2 13.24 2 9.5 2 7.02 4.02 5 6.5 5c1.74 0 3.41.81 4.5 2.09C12.09 5.81 13.76 5 15.5 5 17.98 5 20 7.02 20 9.5c0 3.74-3.4 6.79-8.55 10.54L12 21.35z" />
           </svg>
-          <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
-            Random Pickup Lines
+          <Typography variant="h4" sx={{ fontWeight: 'bold', '@media (max-width: 600px)': { textAlign: 'center' } }}>
+             Pickup Lines
           </Typography>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'center', mb: 4 }}>
