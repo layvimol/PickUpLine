@@ -38,6 +38,10 @@ const App: React.FC = () => {
           '&:hover': {
             transform: 'scale(0.95)', // Apply the transformation on hover
           },
+          '@media (max-width: 600px)': { // Adjust the value to target smaller screens (e.g., phones)
+            marginLeft: '10px',
+            marginRight: '10px',
+          },
         }}
       >
         <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
